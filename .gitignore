@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# 不能把源码中的机密配置信息，如各种 secretId 等
+.env

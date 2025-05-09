@@ -4,12 +4,14 @@
   "description": "微信云托管 express 框架模版",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start:dev": "NODE_ENV=development node index.js",
+    "start:product": "NODE_ENV=product node index.js"
   },
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
     "express": "^4.16.4",
     "morgan": "^1.10.0",
     "mysql2": "^2.3.2",
